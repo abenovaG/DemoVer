@@ -1,0 +1,41 @@
+body {
+    background-color: #5063C5;
+}
+.insideImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+.articleInfo {
+    margin-top: 70px;
+    width: 400px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: sans-serif;
+    color: white;
+    margin-left: 40px;
+}
+.URL_img {
+    display: flex;
+    flex-direction: column;
+}
+.wrapperInfo {
+    margin-top: 50px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    margin-top: 22px;
+    color: white;
+}
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #F8FD15;
+    font-family: sans-serif;
+    font-size: 25px;
+}
