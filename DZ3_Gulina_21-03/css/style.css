@@ -1,0 +1,11 @@
+.one {
+    position: relative;
+    height: 100vh;
+    background-image: url("../images/image-1.jpg");
+}
+.two {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
