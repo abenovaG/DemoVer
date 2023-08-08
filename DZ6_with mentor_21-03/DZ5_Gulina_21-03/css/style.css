@@ -1,0 +1,249 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url('../images/image-main.jpg') no-repeat top center;
+    background-size: cover;
+}
+.main h1 {
+    font-size: 56px;
+    line-height: 73px;
+    color: #ffffff;
+}
+.main p {
+    width: 870px;
+    margin: 25px auto 50px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.info {
+    margin-top: -95px;
+    margin-bottom: 128px;
+}
+.info__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 88px;
+    background-color: #ffffff;
+    box-shadow: 0 11px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.info__item {
+    display: flex;
+}
+.info__item img {
+    width: 72px;
+    margin-right: 24px;
+}
+.info__item p {
+    margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 700;
+}
+.info__item span {
+    font-size: 16px;
+    line-height: 25px;
+    color: #086CF9;
+}
+.course__inner {
+    display: flex;
+}
+.course h1 {
+    width: 520px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 63px;
+}
+.course p {
+    width: 478px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #555555;
+}
+.course .p2 {
+    width: 490px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    margin-bottom: 32px;
+}
+.img {
+    background: url(../images/image-course.jpg);
+    width: 595px;
+    height: 433px;
+    margin-left: 38px;
+    margin-right: 144px;
+    border-radius: 4px;
+}
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 430px;
+}
+.circle {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+}
+.play {
+    margin-top: 28px;
+    margin-left: 28px;
+}
+.how_it_work {
+    margin: 128px auto;
+}
+.how_it_work__inner {
+    display: flex;
+}
+.how_it_work h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 63px;
+    margin-bottom: 12px;
+}
+.how_it_work .p0 {
+    text-align: center;
+    width: 423px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #555555;
+    margin-bottom: 48px;
+    margin-right: 365px;
+    margin-left: 364px;
+}
+.work_item {
+    text-align: center;
+    margin-right: 53px;
+}
+.work_item img {
+    width: 80px;
+    margin-bottom: 27px;
+}
+.work_item .one {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    color: #222222;
+}
+.work_item p {
+    width: 248px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.work_item img{
+    transition: 1s ;
+}
+.work_item img:hover{
+    opacity: 0.5;
+    transform: rotate(360deg) scale(0.5);
+}
+
+.online{
+    background: #ECF4FF;
+    padding-top: 60px;
+    padding-bottom: 61px;
+}
+.online_Inner_Blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.online_Inner_h4{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.online_Inner_p1{
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    color: #555555;
+    margin-bottom: 48px;
+}
+.online_Inner_Block{
+    padding: 24px 24px 35px 24px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 368px;
+}
+.online_Inner_Block_icons{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online_Inner_Block hr{
+    width: 320px;
+    height: 0.5px;
+    margin-top: 24px;
+    background: #E9E8E8;
+    opacity: 0.1;
+}
+.online_Inner_Block_second{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.online_Inner_Block_second h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #333333;
+}
+.online_Inner_Block_second span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+
+    color: #086CF9;
+}
+.online_Inner_Block p{
+    font-size: 14px;
+    line-height: 155%;
+    /* or 22px */
+
+
+    color: #555555;
+    margin-top: 18px;
+
+}
+.online_mt_30{
+    margin-top: 30px;
+}
+
+/* 2 */
+.event_img{
+    width: 368px;
+    height: 240px;
+    background: url('../images/online/firstBl.png') no-repeat center;
+    background-size: cover;
+}
+.event_img span {
+    width: 65px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #086CF9;
+    border-radius: 6px 0px 0px 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+}
