@@ -1,0 +1,40 @@
+body {
+    background-color: #efefef;
+}
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #fff;
+
+}
+.element {
+    display: flex;
+    justify-content:flex-start;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.text1  {
+    float: right;
+    font-size: 20px;
+    color: royalblue;
+    margin-left: 35px;
+    margin-top: auto;
+}
+.two {
+    height: 500px;
+    width: 595px;
+    background-image: url(../images/image1.png);
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
